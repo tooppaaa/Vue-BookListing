@@ -4,12 +4,7 @@
 <script>
 export default {
   name: 'BookItem',
-  data: function() {
-    return {
-      title: 'All Books',
-      props: ['book'],
-    };
-  },
+  props: ['book'],
 };
 </script>
 <style>
